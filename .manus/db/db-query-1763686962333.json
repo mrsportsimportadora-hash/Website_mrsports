@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO products (name, description, price, stock, categoryId, provider, rating, reviewsCount, active) VALUES \n('ULTRAGRIP GEL ADERENTE 100G - POLE', 'Gel adherente de sílica que absorbe hasta 10 veces más sudor que el magnésio común', 7990, 8, 1, 'UltraGrip', 5.0, 8, true),\n('ULTRAGRIP GEL ADERENTE 50G', 'Versión más pequeña del gel adherente, perfecta para llevar', 4990, 8, 1, 'UltraGrip', 5.0, 8, true),\n('ULTRAGRIP ZERO ODOR 120ML', 'Spray de agarre sin olor, ideal para entrenamientos en espacios cerrados', 5990, 2, 2, 'UltraGrip', 5.0, 2, true),\n('ULTRAGRIP LUVAS PRO 100ML', 'Producto de agarre profesional para guantes', 11990, 5, 2, 'UltraGrip', 5.0, 5, true),\n('ULTRAGRIP PARA LUVAS 120ML', 'Spray de agarre especial para luvas de Pole Dance', 9990, 8, 2, 'UltraGrip', 5.0, 8, true);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2muRvDEaMCLC7tG.root --database Sicd6wLzqLopnPYpeCNzFq --execute INSERT INTO products (name, description, price, stock, categoryId, provider, rating, reviewsCount, active) VALUES \n('ULTRAGRIP GEL ADERENTE 100G - POLE', 'Gel adherente de sílica que absorbe hasta 10 veces más sudor que el magnésio común', 7990, 8, 1, 'UltraGrip', 5.0, 8, true),\n('ULTRAGRIP GEL ADERENTE 50G', 'Versión más pequeña del gel adherente, perfecta para llevar', 4990, 8, 1, 'UltraGrip', 5.0, 8, true),\n('ULTRAGRIP ZERO ODOR 120ML', 'Spray de agarre sin olor, ideal para entrenamientos en espacios cerrados', 5990, 2, 2, 'UltraGrip', 5.0, 2, true),\n('ULTRAGRIP LUVAS PRO 100ML', 'Producto de agarre profesional para guantes', 11990, 5, 2, 'UltraGrip', 5.0, 5, true),\n('ULTRAGRIP PARA LUVAS 120ML', 'Spray de agarre especial para luvas de Pole Dance', 9990, 8, 2, 'UltraGrip', 5.0, 8, true);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 182
+}

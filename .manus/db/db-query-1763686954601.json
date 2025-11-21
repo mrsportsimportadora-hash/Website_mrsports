@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO categories (name, description, icon) VALUES \n('Geles Adherentes', 'Geles de agarre para Pole Dance', '💪'),\n('Sprays', 'Sprays de agarre y limpieza', '🧴'),\n('Accesorios', 'Accesorios para Pole Dance', '🎯');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2muRvDEaMCLC7tG.root --database Sicd6wLzqLopnPYpeCNzFq --execute INSERT INTO categories (name, description, icon) VALUES \n('Geles Adherentes', 'Geles de agarre para Pole Dance', '💪'),\n('Sprays', 'Sprays de agarre y limpieza', '🧴'),\n('Accesorios', 'Accesorios para Pole Dance', '🎯');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 97
+}
